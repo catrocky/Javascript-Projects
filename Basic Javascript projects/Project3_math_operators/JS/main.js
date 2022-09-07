@@ -33,12 +33,12 @@ function negation_Operator(){
   document.getElementById("Math7").innerHTML=-x; //negation
 }
 
-//var X=5;
-//X++;
-//document.write(X); //increase
+var X=5;
+X++;
+document.write(X); //increase
 
-//var Y=5;
-//Y--;
-//document.write(Y); //decrease
+var Y=5;
+Y--;
+document.write(Y); //decrease
 
-//window.alert(Math.random( * 100)); //random 
+window.alert(Math.random()); //random 
