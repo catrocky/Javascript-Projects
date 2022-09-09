@@ -1,5 +1,5 @@
 function My_Dictionary() {
-  var Animal {
+  var Animal = {
     Species:"Dog",
     Color:"Black",
     Breed:"Labrador",
@@ -10,7 +10,7 @@ function My_Dictionary() {
 }
 
 function My_Dictionary1() {
-  var Animal {
+  var Animal = {
     Species:"Dog",
     Color:"Black",
     Breed:"Labrador",
