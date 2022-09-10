@@ -11,3 +11,6 @@ function my_Function1() {
 function my_Function2() {
   document.getElementById("Test2").innerHTML = isNaN('007');
 }
+
+document.write(2E310);
+document.write(-2E310);
