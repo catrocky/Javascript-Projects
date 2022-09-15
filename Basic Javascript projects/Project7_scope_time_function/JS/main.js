@@ -57,4 +57,5 @@ var Emily = new Vehicle("Jeep","Trail Hawk",2019,"White and Black");
 var Erik = new Vehicle("Ford","Pinto",1971,"Mustard");
 function myFunction() {
   console.log(Jack.Hair_Color);
+myFunction();
 }
