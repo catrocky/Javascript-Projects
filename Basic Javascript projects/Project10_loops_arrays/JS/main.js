@@ -69,7 +69,7 @@ let car={
 document.getElementById("usercar").innerHTML=car.description();
 }
 
-//return function example ***not working?
+//return function
 function returntest() {
   function return_function(test) {
     return test;
