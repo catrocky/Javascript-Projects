@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>React_4</title>
+
+  </head>
+  <body>
+    <script>
+      document.body.classList.add('fade-out');
+
+      window.addEventListener('DOMContentLoaded',()=>{ //this removes the fadeout once the page is loaded
+        document.body.classList.remove('fade-out');
+      })
+     </script>
+
+    <h1>Horizonal rule</h1>
+    <hr>
+    <p>Horizontal rule</p>
+
+
+    <p style="font-size:2vw;">This is testing the resize using vw</p>
+
+    <h1>TEST to see fade out</h1>
+
+    <style>
+      body{ /*This should do the fade*/
+        opacity:1;
+        transition:1s opacity;
+      }
+
+      body.fade-out{
+        opacity:0;
+        transition:none;
+      }
+
+      /*html {
+        background-color:purple; /*this is the color of the screen until the page fades in
+      } */ /*comment out bg color*/
+    </style>
+
+
+  </body>
+</html>
